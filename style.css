@@ -1,0 +1,125 @@
+body {
+  background-color: #fff7e4;
+}
+h1 {
+  color: black;
+  font-family: "Figtree", serif;
+  font-size: 3rem;
+  margin-top: 30px;
+}
+
+h2 {
+  color: #9d0909;
+  margin-top: 15px;
+  font-family: "Figtree", serif;
+  font-size: 2rem;
+}
+.index_underoverskrift {
+  color: black;
+  margin-top: 20px;
+  font-family: "Figtree", serif;
+  font-size: 1.5rem;
+}
+img {
+  width: 100%;
+  border-radius: 20px;
+  border: solid;
+  border-color: #9d0909;
+}
+
+footer {
+  background-color: #9d0909;
+}
+
+.knap_skrift_container {
+  width: 80%;
+  padding: 5px;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.knap_skrift {
+  color: #fff7e4;
+  background-color: #9d0909;
+  border-radius: 11px;
+  text-align: center;
+  padding: 0.5rem;
+  margin-top: 30px;
+  border: none;
+}
+
+.knap_text {
+  color: #fff7e4;
+  background-color: #9d0909;
+  border-radius: 11px;
+  text-align: center;
+  padding: 0.5rem;
+  margin-top: 10px;
+}
+.knap {
+  text-align: center;
+}
+
+p {
+  color: black;
+  font-family: "Montserrat", serif;
+  font-size: 1.3rem;
+}
+
+/*** 02_website ***/
+
+.top_venstre {
+  background-color: #ffeabc;
+  border-radius: 20px;
+  padding: 5px;
+
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.link_knap {
+  color: #9d0909;
+  font-weight: 600;
+  font-family: "Montserrat", serif;
+  text-decoration: none;
+}
+.text_med_link {
+  display: flex;
+  gap: 3px;
+}
+.box_p {
+  margin-top: 40px;
+  font-size: 1.3rem;
+}
+
+.text_med_link {
+  margin-top: 40px;
+  font-size: 1.3rem;
+}
+.box_overskrift {
+  text-align: center;
+}
+.top_p {
+  margin-top: 30px;
+}
+
+/******** emnesite *******/
+
+.bund_venstre {
+  background-color: #ffeabc;
+  border-radius: 20px;
+  padding: 5px;
+
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+/***** om mig *****/
+
+.om_mig_mellem_venstre2 {
+  background-color: #ffeabc;
+  border-radius: 20px;
+  padding: 5px;
+
+  margin-top: 30px;
+  margin-bottom: 20px;
+}

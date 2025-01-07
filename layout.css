@@ -159,6 +159,7 @@ main {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 10px;
+  margin-top: 20px;
 }
 
 .mellem {
@@ -190,6 +191,7 @@ main {
     grid-template-columns: 1fr 1fr;
     gap: 20px;
     margin-top: 50px;
+    margin-bottom: 20px;
   }
   .bund {
     display: grid;
@@ -201,6 +203,7 @@ main {
   .nederst {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    margin-top: 40px;
   }
   .nederst_hoejre {
     grid-column: 2/3;
@@ -208,12 +211,20 @@ main {
   .om_mig_top {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    margin-top: 30px;
   }
   .om_mig_mellem {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
     margin-top: 50px;
+  }
+  .om_mig_bund {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-top: 50px;
+    margin-bottom: 30%;
   }
 }
 
@@ -244,4 +255,50 @@ main {
 
   margin-top: 30px;
   margin-bottom: 20px;
+}
+
+.knapper_2 {
+  margin-bottom: 40%;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.footer_tekst {
+  display: grid;
+  margin-left: 5px;
+}
+
+@media (max-width: 800px) {
+  .web_billede2 {
+    display: none;
+  }
+
+  .emne_billede3 {
+    display: none;
+  }
+
+  .emne_billede5 {
+    display: none;
+  }
+
+  .ani_billede3 {
+    display: none;
+  }
+
+  .virk_billede1 {
+    display: none;
+  }
+  .virk_billede2 {
+    display: none;
+  }
+  .virk_billede3 {
+    display: none;
+  }
+
+  .lottie {
+    display: none;
+  }
 }

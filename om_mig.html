@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="da">
 
 <head>
     <link rel="stylesheet" href="style.css">
@@ -9,6 +9,8 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Poller+One&family=Protest+Guerrilla&family=Racing+Sans+One&family=Rammetto+One&display=swap"
         rel="stylesheet">
+
+    <script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs" type="module"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
@@ -43,6 +45,10 @@
             <div class="om_mig_top_venstre">
                 <h1>Om mig</h1>
                 <h2>Her er lidt om mig og medie </h2>
+                <dotlottie-player class="lottie"
+                    src="https://lottie.host/b5c7913d-41c9-4ac4-818a-7a5eff02652a/SqC4RPeIF7.lottie"
+                    background="transparent" speed="1" style="width: 300px; height: 300px" loop
+                    autoplay></dotlottie-player>
             </div>
             <img src="img/om_mig_billede1.webp" alt="">
         </div>
@@ -74,6 +80,10 @@
 
         </div>
 
+
+
+
+
         <div class="om_mig_mellem">
             <div class="om_mig_mellem_venstre">
                 <h2 class="box_overskrift">Grid-master Jeppe</h2>
@@ -93,7 +103,7 @@
             </div>
         </div>
 
-        <div class="om_mig_mellem">
+        <div class="om_mig_bund">
             <div class="om_mig_mellem_venstre2">
                 <h2 class="box_overskrift">KEA 1. semester</h2>
                 <p class="box_p">er på 1. semester har jeg lært meget</p>
@@ -117,7 +127,9 @@
     </main>
 
     <footer>
+        <div class="square">
 
+        </div>
     </footer>
     <script src="menu.js"></script>
 </body>
